@@ -1,8 +1,8 @@
 //  Variables Practice
 
-let name = "Pavan";
-let age = 21;
-let isStudent = true;
+let name = "Pavan"; // string variable to store name
+const age = 21; // number variable to store age, using const as age is not expected to change
+let isStudent = true; // boolean variable to store student status
 
 console.log("Name:", name);
 console.log("Age:", age);

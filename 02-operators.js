@@ -77,5 +77,5 @@ console.log("Add and Assign:", greeting);  // "Hello World"
 
 //note: == only checks value, while === checks both value and type.
 
-//practice
+
 
