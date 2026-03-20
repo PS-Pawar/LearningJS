@@ -20,3 +20,4 @@ console.log(course);
 //stirng = text 
 //bolean value = true or false
 //number =numeric value
+
