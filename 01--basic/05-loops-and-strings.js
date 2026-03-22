@@ -158,25 +158,3 @@ let str10 = "Hello, World!";
 let slicedStr = str10.slice(0, 5);  // this will create a new string "Hello" by slicing the original string from index 0 to index 5 (not including index 5)
 console.log(slicedStr); 
 
-// string substring
-let str11 = "Hello, World!";
-let substringStr = str11.substring(0, 5); // this will create a new string "Hello" by extracting the characters from index 0 to index 5 (not including index 5)
-console.log(substringStr);
-
-// string substring
-let str12 = "Hello, World!";
-let substrStr = str12.substr(0, 5); // this will create a new string "Hello" by extracting the characters from index 0 and taking 5 characters
-console.log(substrStr);
-
-// string search
-let str13 = "Hello, World!";
-let searchIndex = str13.search("World"); // this will return the index of the first occurrence of "World" in the string, which is 7
-console.log(searchIndex);   
-
-// string match
-let str14 = "Hello, World!";
-let matches = str14.match(/o/g);    
-
-// this will return an array of all the occurrences of "o" in the string, which is ["o", "o"]
-console.log(matches);
-
